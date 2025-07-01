@@ -1,5 +1,5 @@
 {
-  "name": "base-conversor",
+  "name": "base-converter",
   "version": "1.0.0",
   "description": "Conversor de bases numéricas (decimal, binario, octal, hexadecimal) en TypeScript.",
   "scripts": {

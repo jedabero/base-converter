@@ -12,7 +12,7 @@ Base Conversor is a web application that allows users to convert numbers between
 ## Project Structure
 
 ```
-base-conversor
+base-converter
 ├── src
 │   ├── index.ts          # Main entry point of the application
 │   └── styles
@@ -32,17 +32,20 @@ base-conversor
 To get started with the Base Conversor project, follow these steps:
 
 1. **Clone the repository:**
+
    ```
-   git clone https://github.com/yourusername/base-conversor.git
-   cd base-conversor
+   git clone https://github.com/yourusername/base-converter.git
+   cd base-converter
    ```
 
 2. **Install dependencies:**
+
    ```
    npm install
    ```
 
 3. **Run the development server:**
+
    ```
    npm run dev
    ```
