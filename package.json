@@ -1,0 +1,23 @@
+{
+  "name": "base-conversor",
+  "version": "1.0.0",
+  "description": "Conversor de bases numéricas (decimal, binario, octal, hexadecimal) en TypeScript.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "typescript",
+    "vite",
+    "base",
+    "converter",
+    "static-site"
+  ],
+  "author": "jedabero",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.4.0",
+    "vite": "^5.0.0"
+  }
+}
