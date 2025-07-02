@@ -10,21 +10,27 @@
     <main>
       <h1>Conversor de Bases</h1>
       <form id="converter-form">
-        <input type="text" id="input-value" placeholder="Número" required />
-        <select id="from-base">
-          <option value="2">Binario</option>
-          <option value="8">Octal</option>
-          <option value="10" selected>Decimal</option>
-          <option value="16">Hexadecimal</option>
-        </select>
-        <span>→</span>
-        <select id="to-base">
-          <option value="2">Binario</option>
-          <option value="8">Octal</option>
-          <option value="10">Decimal</option>
-          <option value="16" selected>Hexadecimal</option>
-        </select>
-        <button type="submit">Convertir</button>
+        <div class="form-row">
+          <input type="text" id="input-value" placeholder="Número" required />
+        </div>
+        <div class="form-row">
+          <select id="from-base">
+            <option value="2">Binario</option>
+            <option value="8">Octal</option>
+            <option value="10" selected>Decimal</option>
+            <option value="16">Hexadecimal</option>
+          </select>
+          <span class="arrow">→</span>
+          <select id="to-base">
+            <option value="2">Binario</option>
+            <option value="8">Octal</option>
+            <option value="10">Decimal</option>
+            <option value="16" selected>Hexadecimal</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <button type="submit">Convertir</button>
+        </div>
       </form>
       <div id="result"></div>
     </main>
