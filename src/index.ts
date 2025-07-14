@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
             result.textContent = "Entrada no válida para la base seleccionada.";
             result.style.color = "red";
         } else {
-            result.textContent = `Resultado: ${output}`;
+            result.textContent = `${output}`;
             result.style.color = "green";
         }
     });
